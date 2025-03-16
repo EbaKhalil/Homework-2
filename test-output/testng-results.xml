@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-16T14:42:32 EET" name="Default suite" finished-at="2025-03-16T14:44:04 EET" duration-ms="91460">
+    <groups>
+    </groups>
+    <test started-at="2025-03-16T14:42:32 EET" name="Default test" finished-at="2025-03-16T14:44:04 EET" duration-ms="91460">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:42:34 EET" name="setUp" finished-at="2025-03-16T14:42:40 EET" duration-ms="6183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:42:40 EET" name="testLogin" data-provider="loginData" finished-at="2025-03-16T14:42:55 EET" duration-ms="14907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuserexample.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Error: Please enter Email Address in a valid format. | Error: Please enter Current Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:42:55 EET" name="tearDown" finished-at="2025-03-16T14:42:55 EET" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:42:55 EET" name="setUp" finished-at="2025-03-16T14:43:00 EET" duration-ms="4533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:43:00 EET" name="testLogin" data-provider="loginData" finished-at="2025-03-16T14:43:22 EET" duration-ms="21933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validuser@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email/Password you entered is not correct. Please try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:43:22 EET" name="tearDown" finished-at="2025-03-16T14:43:23 EET" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:43:23 EET" name="setUp" finished-at="2025-03-16T14:43:27 EET" duration-ms="4316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:43:27 EET" name="testLogin" data-provider="loginData" finished-at="2025-03-16T14:44:03 EET" duration-ms="36191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ebakhalil7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789Eba@@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[You May Also Like]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@393671df]" started-at="2025-03-16T14:44:03 EET" name="tearDown" finished-at="2025-03-16T14:44:04 EET" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
